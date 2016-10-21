@@ -106,3 +106,28 @@ ctrl a (123) -> go to numbered screen
 ctrl a shift "  ->show running screens  
 ctrl a shift A ->name the current screen(must under current screen)  
 
+###3 Detach and reattach screens
+ctrl a d-> detach session(current screen)
+
+
+####00:37
+list screen
+```
+screen -ls
+```
+attach to the most recently used session
+```
+screen -R
+```
+attach using pid
+```
+screen -r 1234
+```
+
+####01:32 command mode.
+in list mode( ctrl a shift :),  
+ctrk b shift : ->command mode  
+
+
+ctrl a k ->kill current window 
+ctrl a \ ->kill all windows
