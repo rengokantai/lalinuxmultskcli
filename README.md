@@ -131,3 +131,12 @@ ctrk b shift : ->command mode
 
 ctrl a k ->kill current window 
 ctrl a \ ->kill all windows
+
+
+##3. Manage Virtual Terminates with Tmux
+###2 Create a session and work with windows
+```
+tmux
+```
+ctrl b ? ->shortcuts  
+ctrl b c ->create window
