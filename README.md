@@ -57,3 +57,52 @@ multiple jobs run same time
 ```
 bg %4 %5
 ```
+
+
+
+
+
+
+
+
+###4 Processes and jobs
+Jobs is a bash built-in, so its specific documentation is available through help, rather than man. 
+```
+help jpbs
+```
+####01:15
+show pids
+```
+jobs -l
+```
+suspend
+```
+kill -stop 1234  / kill -stop %2
+```
+continue
+```
+kill -cont 1234
+```
+remove from joblist
+```
+disown %5
+```
+this process is still running. verify
+```
+ps -x | grep bash
+```
+
+
+##2. Manage Virtual Terminals with Screen
+###2 Create and navigate screens
+```
+screen
+```
+ctrl a c -> make a new screen  
+ctrl a n->navigate to next screen  
+ctrl a p->previous screen  
+ctrl a->last used screen  
+ctrl a (123) -> go to numbered screen
+ctrl a shift "  ->show running screens  
+ctrl a shift A ->name the current screen(must under current screen)  
+
