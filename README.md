@@ -139,4 +139,15 @@ ctrl a \ ->kill all windows
 tmux
 ```
 ctrl b ? ->shortcuts  
+(q->quit)  
 ctrl b c ->create window
+
+
+####01:53
+ctrl b , ->change window name  (this is not permanent)  
+ctrl b number -> jump window  
+ctrl b n->navigate to next window
+ctrl b p->previous window
+ctrl b l->last window
+ctrl b & ->close current window  
+ctrl b w ->list all windows
