@@ -151,3 +151,14 @@ ctrl b p->previous window
 ctrl b l->last window
 ctrl b & ->close current window  
 ctrl b w ->list all windows
+
+
+###3 Create and modify panes within windows
+ctrl b " -> split top bottom
+ctrl b o ->cycle active pane  
+ctrl b % ->split left right  
+ctrl b ->   -> cycle direction  
+ctrl b ; ->last-used pane   //ctl b ctl o  
+ctrl b ctrl ->  -> change size in small increment  
+ctrl b ! ->promote a pane to full window  
+ctrl b x ->close a pane
