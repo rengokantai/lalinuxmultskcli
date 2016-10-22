@@ -185,4 +185,19 @@ kill session
 ```
 tmux kill-session -t newname
 ```
+###5 The tmux command line
+ctrl b  shift : -> go to commandline  (for example, new-window = ctrl b c) , switch-window -t 0 = changewindow  
 
+set-option -g monitor-activity on
+
+
+###6 Customize tmux
+
+```
+vim .tmux.conf
+```
+then edit
+```
+set-option -g all-rename off  //tells Tmux not to rename my windows after I set a name.
+set -g status-bg cyan
+```
