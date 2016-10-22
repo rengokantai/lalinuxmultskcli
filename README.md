@@ -162,3 +162,27 @@ ctrl b ; ->last-used pane   //ctl b ctl o
 ctrl b ctrl ->  -> change size in small increment  
 ctrl b ! ->promote a pane to full window  
 ctrl b x ->close a pane
+
+
+###4 Detach and reattach sessions
+ctrl b d ->detach window  
+in shell
+```
+tmux attach -t 0
+```
+to reattach.   
+
+
+ctrl b $ -> rename session (max 8 char) this is perm. so we can connect using name
+```
+tmux attach -t newname
+```
+
+####01:46
+ctrl b s ->choose session  
+
+kill session
+```
+tmux kill-session -t newname
+```
+
